@@ -4,7 +4,7 @@ namespace MauiAppMinhaCompras
 {
     public partial class App : Application
     {
-        static SQliteDatabaseHelper _db;
+        static SQliteDatabaseHelper? _db;
 
         public static SQliteDatabaseHelper Db
         {
